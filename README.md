@@ -55,10 +55,12 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png)
+![Exp 3 (a) Intro to Robotics](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/662c6074-60ab-4fb9-a44d-9cc2b334a5d0)
 
 
 
 ### FIGURE-03 CIRCUIT DIAGRAM
+![Exp 3(b) Intro to Robotics](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/25dfc1be-24ac-4fef-9336-35b0193c07dd)
 
 
 
@@ -76,15 +78,48 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
+ *your roll no : 212223040077
+ * your name : JESPIAH SHIHANA P S
+ * department and year : COMPUTER SCIENCE ENGINEERING AND 1ST YEAR
+
+ ```
+int fsr;
+int LED= 7;
+void setup()
+{
+  pinMode(LED, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  fsr= analogRead(A0);
+  Serial.print("raw value=");
+  Serial.println(fsr);
+  delay(1000);
+  int m;
+  m= map(fsr,0,159,0,10);
+  Serial.print("mapped value=");
+  Serial.println(m);
+  delay(1000);
+
+
+if (m>5)
+{
+  digitalWrite(LED,HIGH);
+  	delay(500);
+  digitalWrite(LED,LOW);
+  	delay(500);
+}
+}
+```
  
  
- 
- 
- 
- 
+![ROBOTICS EXP 3](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/75424e51-6e93-4eb2-a970-2ee72cd7e2b0)
+
+![Screenshot 2024-02-29 062604](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/c22a7436-f01f-4795-9491-465cf063bef5)
+
+
  
  
  
@@ -95,7 +130,6 @@ The easiest way to measure a resistive sensor is to connect one end to power and
  
  
 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
 
 
 ### TABLE -02 standard deviation table 
