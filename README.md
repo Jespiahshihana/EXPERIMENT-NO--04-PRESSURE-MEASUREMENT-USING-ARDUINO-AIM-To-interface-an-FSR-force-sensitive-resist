@@ -127,7 +127,6 @@ if (m>5)
 ### Schematic Diagram:
 
 ![Exp 3(b) Intro to Robotics](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/25dfc1be-24ac-4fef-9336-35b0193c07dd)
-
 ### Population Standard Deviation
 The population standard deviation, the standard definition of σ, is used when an entire population can be measured, and is the square root of the variance of a given data set. In cases where every member of a population can be sampled, the following equation can be used to find the standard deviation of the entire population:
 
