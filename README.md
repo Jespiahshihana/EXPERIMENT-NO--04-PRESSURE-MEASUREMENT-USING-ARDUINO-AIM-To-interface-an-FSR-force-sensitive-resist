@@ -128,25 +128,8 @@ if (m>5)
 
 ![Exp 3(b) Intro to Robotics](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/25dfc1be-24ac-4fef-9336-35b0193c07dd)
 
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
 ### Population Standard Deviation
 The population standard deviation, the standard definition of σ, is used when an entire population can be measured, and is the square root of the variance of a given data set. In cases where every member of a population can be sampled, the following equation can be used to find the standard deviation of the entire population:
-
-
 
 Where
 xi is an individual value
@@ -158,19 +141,5 @@ For those unfamiliar with summation notation, the equation above may seem daunti
 ### CALCULATION:       
 μ = (2+2+4+5+6+7+8+9+10)/10=6.2        
 σ = √[(2-6.2)2+(3-6.2)2+(4-6.2)2+(5-6.2)2+(6-6.2)2+(7-6.2)2+(8-6.2)2+(9-6.2)+(10-6.2)2/10 σ = √(17.64+10.24+4.84+1.44+0.04+0.64+3.24+7.84+14.44)/10= √(63.6)σ = 2.52
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
