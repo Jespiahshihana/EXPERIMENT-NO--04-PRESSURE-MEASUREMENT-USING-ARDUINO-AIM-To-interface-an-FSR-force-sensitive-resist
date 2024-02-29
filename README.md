@@ -54,14 +54,11 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 
-![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png)
-![Exp 3 (a) Intro to Robotics](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/662c6074-60ab-4fb9-a44d-9cc2b334a5d0)
-
 
 
 ### FIGURE-03 CIRCUIT DIAGRAM
-![Exp 3(b) Intro to Robotics](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/25dfc1be-24ac-4fef-9336-35b0193c07dd)
 
+![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png)
 
 
 ### PROCEDURE:
@@ -113,26 +110,39 @@ if (m>5)
 }
 }
 ```
- 
+### TABLE -02 
+
+ ### Standard Deviation Table:
  
 ![ROBOTICS EXP 3](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/75424e51-6e93-4eb2-a970-2ee72cd7e2b0)
 
+### Graph:
+
 ![Screenshot 2024-02-29 062604](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/c22a7436-f01f-4795-9491-465cf063bef5)
 
+### Circuit Diagram:
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+![Exp 3 (a) Intro to Robotics](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/662c6074-60ab-4fb9-a44d-9cc2b334a5d0)
+
+### Schematic Diagram:
+
+![Exp 3(b) Intro to Robotics](https://github.com/Jespiahshihana/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144718286/25dfc1be-24ac-4fef-9336-35b0193c07dd)
 
 
 
-### TABLE -02 standard deviation table 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
 ### Population Standard Deviation
 The population standard deviation, the standard definition of σ, is used when an entire population can be measured, and is the square root of the variance of a given data set. In cases where every member of a population can be sampled, the following equation can be used to find the standard deviation of the entire population:
 
@@ -145,9 +155,9 @@ N is the total number of values
 
 For those unfamiliar with summation notation, the equation above may seem daunting, but when addressed through its individual components, this summation is not particularly complicated. The i=1 in the summation indicates the starting index, i.e. for the data set 1, 3, 4, 7, 8, i=1 would be 1, i=2 would be 3, and so on. Hence the summation notation simply means to perform the operation of (xi - μ)2 on each value through N, which in this case is 5 since there are 5 values in this data set.
 
-EX:           μ = (1+3+4+7+8) / 5 = 4.6        
-σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
-σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
+### CALCULATION:       
+μ = (2+2+4+5+6+7+8+9+10)/10=6.2        
+σ = √[(2-6.2)2+(3-6.2)2+(4-6.2)2+(5-6.2)2+(6-6.2)2+(7-6.2)2+(8-6.2)2+(9-6.2)+(10-6.2)2/10 σ = √(17.64+10.24+4.84+1.44+0.04+0.64+3.24+7.84+14.44)/10= √(63.6)σ = 2.52
 
 
 
